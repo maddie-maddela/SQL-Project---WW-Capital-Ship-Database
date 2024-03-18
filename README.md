@@ -34,7 +34,7 @@ the result (sunk, damaged, or ok) for each ship in each battle.
 
 ## Find the classes of ships, at least one of which was sunk in a battle.
 
-## Method-1 using EXISTS:
+## Method-1: Using EXISTS
 
 SELECT class
 FROM Ships b1
@@ -48,7 +48,7 @@ WHERE EXISTS (SELECT *
 
  
 
-## Method-2 using IN:
+## Method-2: Using IN
 
 SELECT class
 FROM Ships b1
