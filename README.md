@@ -1,6 +1,4 @@
-# SQL-Project
-
-# WW Capital Ship Database
+# SQL-Project - WW Capital Ship Database
 
 World War 2 capital ships database contains the following relations:
 Classes(class, type, country, numGuns, bore, displacement)
